@@ -1,0 +1,24 @@
+{
+  "name": "amirniyaz/phpframework",
+  "description": "PHP framework test",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Amirniyaz",
+      "email": "mr.amirniyaz@mail.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "Amirniyaz\\Framework\\": "framework/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.3"
+  },
+  "require": {
+    "nikic/fast-route": "^1.3"
+  }
+}
